@@ -14,6 +14,9 @@ class Header extends Component {
             way to mess around a bit more!
           </p>
         </Alert>
+        <center>
+          This leaderboard was last updated on August 5th at 5:08 AM MST.
+        </center>
       </React.Fragment>
     );
   }

@@ -7,15 +7,19 @@ class Header extends Component {
   render() {
     return (
       <React.Fragment>
-        <Alert variant='warning'>
+        <center>
+          <img src='./img/logo-ph.png' />
+        </center>
+        <br />
+        <Alert variant='success'>
           <b>DISCLAIMER:</b>{' '}
           <p>
-            Don't take this too seriously! This is a joke and this is just a fun
-            way to mess around a bit more!
+            This website is intended to be a joke! Don't take any of this
+            seriously.
           </p>
         </Alert>
         <center>
-          This leaderboard was last updated on August 5th at 5:08 AM MST.
+          This leaderboard was last updated on August 5th at 6:00 AM MST.
         </center>
       </React.Fragment>
     );

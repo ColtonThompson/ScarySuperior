@@ -7,9 +7,6 @@ class Leaderboard extends Component {
     return (
       <React.Fragment>
         <div>
-          <center>
-            <img src='./img/logo-ph.png' />
-          </center>
           <Table striped bordered hover variant='dark'>
             <thead>
               <tr>

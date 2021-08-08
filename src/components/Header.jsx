@@ -8,7 +8,11 @@ class Header extends Component {
     return (
       <React.Fragment>
         <center>
-          <img src='./img/logo-ph.png' />
+          <img src='./img/logo-v1.jpg' />
+          <br />
+          <small>
+            Art created by <b>Ginny Ertmann</b>
+          </small>
         </center>
         <br />
         <Alert variant='success'>
@@ -19,7 +23,7 @@ class Header extends Component {
           </p>
         </Alert>
         <center>
-          This leaderboard was last updated on August 5th at 6:00 AM MST.
+          This leaderboard was last updated on August 7th at 11:30 PM MST.
         </center>
       </React.Fragment>
     );

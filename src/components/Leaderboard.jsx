@@ -1,9 +1,19 @@
 import React, { Component } from 'react';
 import Table from 'react-bootstrap/Table';
+import NumberFormat from 'react-number-format';
 
 class Leaderboard extends Component {
-  state = {};
+  state = {
+    data: [
+      { id: 1, color: 'red', initials: 'R', score: 2000 },
+      { id: 2, color: 'blue', initials: 'A', score: 250 },
+      { id: 3, color: 'green', initials: 'RK', score: 25 },
+      { id: 4, color: 'orange', initials: 'J', score: 200 },
+      { id: 5, color: 'purple', initials: 'K', score: 1 },
+    ],
+  };
   render() {
+    this.state.data.sort((a, b) => b.score - a.score);
     return (
       <React.Fragment>
         <div>
@@ -16,36 +26,17 @@ class Leaderboard extends Component {
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td>1</td>
-                <td>RK</td>
-                <td>20,000</td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>A</td>
-                <td>11,000</td>
-              </tr>
-              <tr>
-                <td>3</td>
-                <td>R</td>
-                <td>10,000</td>
-              </tr>
-              <tr>
-                <td>4</td>
-                <td>K</td>
-                <td>5,000</td>
-              </tr>
-              <tr>
-                <td>5</td>
-                <td>T</td>
-                <td>4,500</td>
-              </tr>
-              <tr>
-                <td>6</td>
-                <td>J</td>
-                <td>4,250</td>
-              </tr>
+              {this.state.data.map((rowData, index) => (
+                <tr>
+                  <th scope='row'>{index + 1}</th>
+                  <td>
+                    <b>
+                      <font color={rowData.color}>{rowData.initials}</font>
+                    </b>
+                  </td>
+                  <td>{rowData.score.toLocaleString('en')}</td>
+                </tr>
+              ))}
             </tbody>
           </Table>
         </div>

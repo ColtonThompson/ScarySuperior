@@ -11,7 +11,7 @@ class Header extends Component {
           <img src='./img/logo-v1.jpg' />
           <br />
           <small>
-            Art created by <b>Ginny Ertmann</b>
+            Art created by <b>Ginny Decker</b>
           </small>
         </center>
         <br />
@@ -23,7 +23,7 @@ class Header extends Component {
           </p>
         </Alert>
         <center>
-          This leaderboard was last updated on August 7th at 11:30 PM MST.
+          This leaderboard was last updated on December 16th at 11:30 PM MST.
         </center>
       </React.Fragment>
     );

@@ -6,11 +6,13 @@ class Leaderboard extends Component {
   state = {
     data: [
       { id: 1, color: 'red', initials: 'Ruth', score: 19000 },
-      { id: 2, color: 'blue', initials: 'Alicia', score: 18999 },
-      { id: 3, color: 'green', initials: 'Randon', score: 18950 },
-      { id: 4, color: 'orange', initials: 'Jed', score: 5000 },
-      { id: 5, color: 'purple', initials: 'Val', score: 18999 },    
-      { id: 6, color: 'yellow', initials: 'Braxton', score: 2000 },
+      { id: 2, color: 'blue', initials: 'Alicia', score: 1800 },
+      { id: 3, color: 'DarkBlue', initials: 'Randon', score: 18000 },
+      { id: 4, color: 'LightBlue', initials: 'Jed', score: 5000 },
+      { id: 5, color: 'Purple', initials: 'Val', score: 18500 },
+      { id: 6, color: 'green', initials: 'Colton', score: 0 },
+      { id: 7, color: 'magenta', initials: 'Scott', score: 0 },
+      { id: 8, color: 'yellow', initials: 'Braxton', score: 2000 },
     ],
   };
   render() {
@@ -22,8 +24,8 @@ class Leaderboard extends Component {
             <thead>
               <tr>
                 <th>#</th>
-                <th>Initial(s)</th>
-                <th>Scary Score</th>
+                <th>Name</th>
+                <th>Current Score</th>
               </tr>
             </thead>
             <tbody>

@@ -19,6 +19,12 @@ class PointsBreakdown extends Component {
           <li>
             <b>Brooding Silence</b> - 1,000 Points
           </li>
+          <li>
+            <b>Snarky Comment</b> - 500 Points
+          </li>
+          <li>
+            <b>Voluntelling</b> - 250 Points
+          </li>
         </ul>
       </React.Fragment>
     );

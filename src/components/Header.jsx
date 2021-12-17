@@ -16,14 +16,10 @@ class Header extends Component {
         </center>
         <br />
         <Alert variant='success'>
-          <b>DISCLAIMER:</b>{' '}
-          <p>
-            This website is intended to be a joke! Don't take any of this
-            seriously.
-          </p>
+          <b>DISCLAIMER:</b> <p>This website is a joke! Enjoy!</p>
         </Alert>
         <center>
-          This leaderboard was last updated on December 16th at 11:30 PM MST.
+          This leaderboard was last updated on December 17th at 1:35 AM MST.
         </center>
       </React.Fragment>
     );

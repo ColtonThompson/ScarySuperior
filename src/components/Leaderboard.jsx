@@ -5,11 +5,12 @@ import NumberFormat from 'react-number-format';
 class Leaderboard extends Component {
   state = {
     data: [
-      { id: 1, color: 'red', initials: 'Ruth', score: 1000 },
-      { id: 2, color: 'blue', initials: 'Alicia', score: 250 },
-      { id: 3, color: 'green', initials: 'Randon', score: 25 },
-      { id: 4, color: 'orange', initials: 'Jed', score: 200 },
-      { id: 5, color: 'purple', initials: 'Val', score: 1999},
+      { id: 1, color: 'red', initials: 'Ruth', score: 19000 },
+      { id: 2, color: 'blue', initials: 'Alicia', score: 18999 },
+      { id: 3, color: 'green', initials: 'Randon', score: 18950 },
+      { id: 4, color: 'orange', initials: 'Jed', score: 5000 },
+      { id: 5, color: 'purple', initials: 'Val', score: 18999 },    
+      { id: 6, color: 'yellow', initials: 'Braxton', score: 2000 },
     ],
   };
   render() {

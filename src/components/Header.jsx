@@ -19,7 +19,7 @@ class Header extends Component {
           <b>DISCLAIMER:</b> <p>This website is a joke! Enjoy!</p>
         </Alert>
         <center>
-          This leaderboard was last updated on December 17th at 1:35 AM MST.
+          This leaderboard was last updated on December 22nd at 9:27 PM MST.
         </center>
       </React.Fragment>
     );

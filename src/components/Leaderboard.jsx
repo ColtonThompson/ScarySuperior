@@ -11,7 +11,7 @@ class Leaderboard extends Component {
       { id: 4, color: 'LightBlue', initials: 'Jed', score: 5000 },
       { id: 5, color: 'Purple', initials: 'Val', score: 18500 },
       { id: 6, color: 'green', initials: 'Colton', score: 500 },
-      { id: 7, color: 'magenta', initials: 'Scott', score: 250 },
+      { id: 7, color: 'magenta', initials: 'Scott', score: 3750 },
       { id: 8, color: 'yellow', initials: 'Braxton', score: 2000 },
       { id: 9, color: 'orange', initials: 'Trish', score: 16000 },
     ],

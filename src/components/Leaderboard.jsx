@@ -13,6 +13,7 @@ class Leaderboard extends Component {
       { id: 6, color: 'green', initials: 'Colton', score: 500 },
       { id: 7, color: 'magenta', initials: 'Scott', score: 250 },
       { id: 8, color: 'yellow', initials: 'Braxton', score: 2000 },
+      { id: 9, color: 'orange', initials: 'Trish', score: 16000 },
     ],
   };
   render() {

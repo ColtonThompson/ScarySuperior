@@ -18,9 +18,6 @@ class Header extends Component {
         <Alert variant='success'>
           <b>DISCLAIMER:</b> <p>This website is a joke! Enjoy!</p>
         </Alert>
-        <center>
-          This leaderboard was last updated on December 22nd at 9:27 PM MST.
-        </center>
       </React.Fragment>
     );
   }
